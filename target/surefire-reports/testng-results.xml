@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[Username=${uname} Password=${pwd}]]>
+    </line>
+    <line>
+      <![CDATA[Set Up]]>
+    </line>
+    <line>
+      <![CDATA[Create ServiceContract]]>
+    </line>
+    <line>
+      <![CDATA[ServiceContractId id = a94a00ea-9481-46e2-9990-0641a6bc866a]]>
+    </line>
+    <line>
+      <![CDATA[Read Service Contract]]>
+    </line>
+  </reporter-output>
+  <suite name="Sanity Suite" duration-ms="1640" started-at="2018-08-28T14:14:03Z" finished-at="2018-08-28T14:14:05Z">
+    <groups>
+    </groups>
+    <test name="Sanity test" duration-ms="1640" started-at="2018-08-28T14:14:03Z" finished-at="2018-08-28T14:14:05Z">
+      <class name="suites.users.CRUD">
+        <test-method status="PASS" signature="beforeClass(org.testng.ITestContext)[pri:0, instance:suites.users.CRUD@5d624da6]" name="beforeClass" is-config="true" duration-ms="258" started-at="2018-08-28T10:14:03Z" finished-at="2018-08-28T10:14:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6e57e95e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Username=${uname} Password=${pwd}]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:suites.users.CRUD@5d624da6]" name="setUp" is-config="true" duration-ms="2" started-at="2018-08-28T10:14:03Z" finished-at="2018-08-28T10:14:03Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Set Up]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="createServiceContract()[pri:1, instance:suites.users.CRUD@5d624da6]" name="createServiceContract" duration-ms="1304" started-at="2018-08-28T10:14:03Z" finished-at="2018-08-28T10:14:05Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Create ServiceContract]]>
+            </line>
+            <line>
+              <![CDATA[ServiceContractId id = a94a00ea-9481-46e2-9990-0641a6bc866a]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createServiceContract -->
+        <test-method status="PASS" signature="readServiceContract()[pri:2, instance:suites.users.CRUD@5d624da6]" name="readServiceContract" duration-ms="62" started-at="2018-08-28T10:14:05Z" depends-on-methods="suites.users.CRUD.createServiceContract" finished-at="2018-08-28T10:14:05Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Read Service Contract]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- readServiceContract -->
+      </class> <!-- suites.users.CRUD -->
+    </test> <!-- Sanity test -->
+  </suite> <!-- Sanity Suite -->
+</testng-results>

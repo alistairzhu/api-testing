@@ -1,0 +1,4 @@
+common\TestBase.class
+data\User.class
+data\ServiceContract.class
+suites\users\CRUD.class
