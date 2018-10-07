@@ -1,0 +1,12 @@
+*.jar
+.allure/*.*
+.allure/allure-2.0.1/*
+.allure/allure-2.0.1/bin/*
+.allure/allure-2.0.1/config/*.*
+/allure-results/*.*
+.idea/*.*
+.idea/libraries/*.*
+rest-assured-testng - Shortcut.lnk
+*.lnk
+.allure/allure-2.0.1/config/allure-cucumber.yml
+target/*
