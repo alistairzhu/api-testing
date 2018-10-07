@@ -41,7 +41,7 @@ public class JDBCDaoImpl
     public static void main( String[] args )
     {
         try {
-            String[][] blockHash = BlockTools.getBlockNumberAndHash(6000, 1000);
+            String[][] blockHash = BlockTools.getBlockNumberAndHash(7000, 10);
             List<BitBlocks>  blockObjects =  BlockTools.getObjectFromBlock(blockHash);
             batchInsertBitBlock( blockObjects );
 
