@@ -79,7 +79,7 @@ public class JDBCDaoImpl
             }
             catch ( SQLException e )
             {
-                  
+                throw e;
             }
         }
     }
